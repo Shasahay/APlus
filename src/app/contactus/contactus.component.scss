@@ -1,0 +1,23 @@
+:host {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+//   @media screen and (max-width: 1025px) {
+//     /* Here are some changes*/
+//     .marginfromtop{
+//         margin: 0px;
+//     }
+//   }
+
+// @media screen and (max-width: 360px) {
+//     .marginfromtop{
+//         margin-top: 200px !important;
+//     }
+  
+// }
+
+.vl {
+  border-right: 1px solid #dc3545;
+  height: auto;
+}

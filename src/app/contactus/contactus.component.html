@@ -1,0 +1,97 @@
+<!-- <div class="container mt-5">
+    <div class="row m-5">
+      <div class="col"></div>
+      <div class="col-6"></div>
+      <div class="col"></div>
+    </div>
+    <div class="row pt-5 marginfromtop">
+      <div class="col-4 border-end border-danger">
+        <span class="aplus-red-color"> Office address</span>
+        <br><span class="">A<sup>+</sup> Educare</span>
+        <br><span>Ayodhya Bhawan; Kabir Nager Road</span>
+        <br><span>Durgakund, Varanasi</span>
+        <br><span>UP, India</span>
+        <br><span>221005</span>
+        <br><span class="material-icons">phone</span><span class="">+91-99-184-49970</span>
+    <br><span class="material-icons">phone_iphone</span><span class="">+91-72-370-57176</span>
+    </div>
+      <div class="col ml-5" style="margin-left: 5em;">
+        <mat-form-field appearance="fill" class="w-75">
+            <mat-label>To</mat-label>
+            <input matInput [(ngModel)]="toAddress" readonly></mat-form-field>
+
+<br>
+          <mat-form-field appearance="fill" class="w-75">
+            <mat-label>Enter your email</mat-label>
+            <input matInput placeholder="pat@example.com" [formControl]="email" required>
+            <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
+          </mat-form-field>
+<br>
+          <mat-form-field appearance="fill" class="w-75">
+            <mat-label>Select your class</mat-label>
+            <mat-select name="category" placeholder="Your Class" [(ngModel)]="category" required>
+              <mat-option value="one">Foundation 11th</mat-option>
+              <mat-option value="two">Foundation 12th</mat-option>
+              <mat-option value="two">IIT Target</mat-option>
+              <mat-option value="two">NEET Target</mat-option>
+            </mat-select>
+          </mat-form-field>
+<br>
+          <mat-form-field appearance="fill" class="w-75">
+            <mat-label>Your query</mat-label>
+            <textarea matInput [formControl] = "message" required></textarea>
+          </mat-form-field>
+<br>
+<span class="btn btn-danger aplus-bg-red mr-5 mt-4 w-25" style="float: right;margin-right: 10em;">Submit</span>
+      </div>
+
+    </div>
+  </div> -->
+
+  <div class="container marketing mt-5 marginfromtop">
+    <div class="row featurette mt-5">
+      <div class="col-md-7 mt-5 vl">
+        <h2 class="featurette-heading">Communication Address:</h2>
+        <div>
+        <span class="aplus-red-color mt-3"> <b>Office address</b></span>
+        <br><span class="">A<sup>+</sup> Educare</span>
+        <br><span>Ayodhya Bhawan; Kabir Nager Road</span>
+        <br><span>Durgakund, Varanasi</span>
+        <br><span>UP, India</span>
+        <br><span>221005</span>
+        <br><span class="material-icons">phone</span><span class="">+91-99-184-49970</span>
+    <br><span class="material-icons">phone_iphone</span><span class="">+91-72-370-57176</span>
+    </div>
+      </div>
+      <div class="col-md-5 mt-5 px-5">
+        <h2 class="featurette-heading">Email Us:</h2>
+        <mat-form-field appearance="fill" class="w-75 mt-3">
+          <mat-label>To</mat-label>
+          <input matInput [(ngModel)]="toAddress" readonly></mat-form-field>
+
+<br>
+        <mat-form-field appearance="fill" class="w-75">
+          <mat-label>Enter your email</mat-label>
+          <input matInput placeholder="pat@example.com" [formControl]="email" required>
+          <mat-error *ngIf="email.invalid">{{getErrorMessage()}}</mat-error>
+        </mat-form-field>
+<br>
+        <mat-form-field appearance="fill" class="w-75">
+          <mat-label>Select your class</mat-label>
+          <mat-select name="category" placeholder="Your Class" [(ngModel)]="category" required>
+            <mat-option value="one">Foundation 11th</mat-option>
+            <mat-option value="two">Foundation 12th</mat-option>
+            <mat-option value="two">IIT Target</mat-option>
+            <mat-option value="two">NEET Target</mat-option>
+          </mat-select>
+        </mat-form-field>
+<br>
+        <mat-form-field appearance="fill" class="w-75">
+          <mat-label>Your query</mat-label>
+          <textarea matInput [formControl] = "message" required></textarea>
+        </mat-form-field>
+<br>
+<span class="btn btn-danger aplus-bg-red mr-5 mt-4 w-25" style="float: right;margin-right: 10em;">Submit</span>
+      </div>
+    </div>
+</div>

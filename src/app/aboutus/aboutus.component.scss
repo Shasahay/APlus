@@ -1,0 +1,16 @@
+@media screen and (max-width: 1025px) {
+    /* Here are some changes*/
+    .marginfromtop250{
+        margin: 0px;
+    }
+  }
+@media screen and (max-width: 400px) {
+  .marginfromtop250{
+      margin-top: 250px !important;
+  }
+}
+@media screen and (max-width: 360px) {
+    .marginfromtop250{
+        margin-top: 250px !important;
+    }
+}
